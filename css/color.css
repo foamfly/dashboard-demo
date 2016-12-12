@@ -1,0 +1,87 @@
+body {
+  background-color: #31353d;
+}
+.header .navbar-inner {
+  filter: none !important;
+  background-image: none !important;
+  background-color: #1c1d21 !important;
+}
+.header .btn-navbar {
+  background-color: #31353d !important;
+}
+.header .nav .dropdown-toggle:hover,
+.header .nav .dropdown.open .dropdown-toggle {
+  background-color: #31353d !important;
+}
+.header .nav li.dropdown .dropdown-toggle i {
+  color: #eeeff7;
+}
+.page-sidebar {
+  background-color: #31353d;
+}
+ul.page-sidebar-menu > li > a {
+  border-top: 1px solid #5c5c5c !important;
+  color: #ffffff !important;
+}
+ul.page-sidebar-menu > li a i {
+  color: #eeeff7;
+}
+ul.page-sidebar-menu > li.open > a,
+ul.page-sidebar-menu > li > a:hover,
+ul.page-sidebar-menu > li:hover > a {
+  background: #445878;
+}
+ul.page-sidebar-menu > li.active > a {
+  background: #92cdcf !important;
+  border-top-color: transparent !important;
+  color: #eeeff7;
+}
+ul.page-sidebar-menu > li.active > a i {
+  color: #eeeff7;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li:first-child > a {
+  border-top: 0px !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a,
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+  color: #ffffff !important;
+  background: #445878 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+  background: #445878 !important;
+}
+ul.page-sidebar-menu li > ul.sub-menu > li > a {
+  color: #eeeff7;
+}
+.sidebar-toggler {
+  background-image: url(../image/sidebar-toggler.jpg);
+}
+
+@media (max-width: 979px) {
+  
+  .page-sidebar {
+    background-color: #292929 !important;
+  }
+  ul.page-sidebar-menu > li > a {
+    border-top: 1px solid #4a4a4a !important;
+  }
+  ul.page-sidebar-menu > li:last-child > a {
+    border-bottom: 0 !important;
+  }
+  ul.page-sidebar-menu > li.open > a,
+  ul.page-sidebar-menu > li > a:hover,
+  ul.page-sidebar-menu > li:hover > a {
+    background: #445878;
+  }
+}
+
+div.label{
+  background-color: #445878;}
+
+div.external-event.label{
+  font-size:1em;
+  padding:.6em;
+}
+span.label-inverse{
+  background-color: grey;
+}
