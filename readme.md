@@ -1,6 +1,8 @@
 Dashboard Demo
 ===
+
 View the demo [here](https://foamfly.github.io/dashboard-demo/)
+
 ===
 Notice: This is only a UI layout page. All the data edited on the page is not modified in the backend.
 
